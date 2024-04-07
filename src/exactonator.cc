@@ -204,11 +204,11 @@ struct expr_t { /* NOLINT */
     }
 
     dimreal_t load() {
-        /* if (dirty) {
+        if (dirty) {
             cache = rload();
             dirty = false;
-        } */
-        return rload();
+        }
+        return cache;
     }
     
     virtual dimreal_t rload() = 0;
