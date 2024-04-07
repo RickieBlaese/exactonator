@@ -7,4 +7,4 @@ Provide it a list of constants in a constants.conf file with the format:
 ```
 name = value m/s
 ```
-where `m/s` could be any unit
+where `m/s` could be any unit, or no unit at all
